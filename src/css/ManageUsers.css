@@ -1,0 +1,64 @@
+.header-manage-users{
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+.table-users {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    width: 99.8%;
+    border-spacing: 0;
+    overflow: hidden
+}
+.td-container1 {
+    width: 40%;
+    font-weight: bold;
+    vertical-align: text-top;
+    padding-right: 30px;
+    background-color: rgb(190, 191, 190);
+    border-left: 2px solid black;
+    margin: 0;
+    padding: 15px 30px 15px 0px;
+    font-weight: lighter;
+}
+
+.td-container2 {
+    width: 40%;
+    background-color: rgb(190, 191, 190);
+    border-left: 2px solid black;
+    margin: 0;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+}
+
+.td-container3 {
+    border-left: 2px solid black;
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+}
+
+.td-container4 {
+    text-align: center;
+    border-left: 2px solid black;
+    padding: 10px 5px 10px 5px;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+.edit, .delete{
+    border: none;
+    font-size: medium;
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+    padding: 0%;
+    cursor: pointer;
+}
+

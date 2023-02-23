@@ -1,0 +1,26 @@
+.para-register-success {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.header-register-success {
+  padding-top: 50px;
+  justify-content: center;
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+
+.button-register-success {
+  border: none;
+  font-size: 17px;
+  text-decoration: underline;
+  background-color: transparent;
+  cursor: pointer;
+  color: blue;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+
+.header-edit-user{
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: larger;
+    text-align: center;
+}
+.input-user {
+    padding: 7px 0 7px 7px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 90px;
+}
+
+
+.full-name-user1 {
+    font-weight: bold;
+    vertical-align: text-top;
+    margin-left: 33px;
+    font-size: medium;
+}
+
+.full-name-user {
+    font-weight: bold;
+    vertical-align: text-top;
+    font-size: medium;
+}
+
+.save-button {
+    padding: 10px 55px 10px 55px;
+    border-radius: 10px;
+    background-color: rgb(103, 254, 255);
+    font-weight: bolder;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    margin: 25px 0 25px 22px;
+}
+
+.form-user {
+    text-align: center;
+}

@@ -1,0 +1,243 @@
+.header-manage-docu {
+    margin: 0 auto;
+    padding: 80px 0px 20px 0px;
+    font-size: larger;
+}
+
+.table-docu {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    width: 99.8%;
+    border-spacing: 0;
+    overflow: hidden
+}
+
+.td-container1 {
+    width: 40%;
+    font-weight: bold;
+    vertical-align: text-top;
+    padding-right: 30px;
+    background-color: rgb(190, 191, 190);
+    border-left: 2px solid black;
+    margin: 0;
+    padding: 15px 30px 15px 0px;
+    font-weight: lighter;
+}
+
+.td-container2 {
+    width: 40%;
+    background-color: rgb(190, 191, 190);
+    border-left: 2px solid black;
+    margin: 0;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+}
+
+
+.td-container3 {
+    border-left: 2px solid black;
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+}
+
+.td-container4 {
+    text-align: center;
+    border-left: 2px solid black;
+    padding: 10px 5px 10px 5px;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+/* Upload Modal */
+.upload-modal {
+    display: block;
+    position: fixed;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    border: none;
+}
+
+.header-upload {
+    margin: 0;
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.upload-content {
+    position: relative;
+    background-color: #fff;
+    margin-top: 250px;
+    margin-left: 650px;
+    border-radius: 7px;
+    height: 280px;
+    width: 600px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.file-input {
+    padding: 5px 5px 5px 5px;
+    margin: 25px 10px 25px 42px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.file-description {
+    margin-left: 50px;
+    display: block;
+    font-size: large;
+}
+
+.upload-close{
+    border: 2px solid black;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0 4px 0 4px;
+    float: right;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.upload-input {
+    padding: 5px 123px 5px 5px;
+    margin: 25px 10px 25px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.upload-button {
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(103, 254, 255);
+}
+
+.upload-cancel {
+    position: absolute;
+    left: 225px;
+    top: 220px;
+    padding: 6px 40px 6px 40px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(190, 191, 190);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.upload-button1 {
+    position: absolute;
+    left: 50px;
+    top: 220px;
+    padding: 6px 40px 6px 40px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(190, 191, 190);
+    font-weight: bold;
+}
+/* Edit Modal */
+
+.edit-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    border: none;
+}
+
+.header-edit {
+    font-size: 17px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.edit-content {
+    position: relative;
+    background-color: #fff;
+    margin-top: 250px;
+    margin-left: 650px;
+    border-radius: 7px;
+    height: 220px;
+    width: 33%;
+    overflow: hidden;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.edit-label {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.edit-save {
+    position: absolute;
+    left: 190px;
+    top: 150px;
+    padding: 6px 40px 6px 40px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(190, 191, 190);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit-input {
+    padding: 5px 123px 5px 5px;
+    margin: 25px 10px 25px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.edit-form {
+    position: relative;
+    background-color: #fff;
+}
+
+.edit-close {
+    border: 2px solid #000;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    line-height: 25px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.edit-cancel {
+    position: absolute;
+    left: 340px;
+    top: 150px;
+    padding: 6px 40px 6px 40px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(190, 191, 190);
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.welcome-div{
+  text-align: center;
+}
+.welcome-header{
+  font-size: 25px;
+  text-align: center;
+  margin: 0%;
+  padding-top: 110px;
+}
+.welcome-paragraph {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.welcome-login {
+  padding: 10px 50px 10px 50px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.welcome-register {
+  padding: 10px 40px 10px 40px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}

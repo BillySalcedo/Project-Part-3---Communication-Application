@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.navigation-buttons {
+    position: relative;
+}
+
+.buttons-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn {
+    display: block;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    width: 24.89%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(190, 191, 190);
+    font-size: 19px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nav-btn.active {
+    background-color: white;
+}

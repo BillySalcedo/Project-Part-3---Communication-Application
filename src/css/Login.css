@@ -1,0 +1,46 @@
+.button-login {
+  padding: 7px 57px 7px 57px;
+  border-radius: 10px;
+  background-color: rgb(103, 254, 255);
+  font-weight: bolder;
+  font-size: medium;
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.email-login-div {
+  display: flex;
+  justify-content: center;
+  padding-right: 90px;
+  padding-bottom: 10px;
+}
+
+.password-login-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px 123px 40px 0%;
+}
+
+.login-header {
+  font-size: 25px;
+  text-align: center;
+  margin: 0%;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+
+.input-login,
+.input-password {
+  padding: 7px 0px 7px 7px;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.email-label,
+.password-label {
+  padding-right: 40px;
+  font-size: medium;
+  font-weight: bolder;
+  padding-top: 11px;
+}

@@ -1,0 +1,89 @@
+.header {
+    display: inline-block;
+    padding: 10px 93.8% 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px 0 0 0;
+
+}
+.chat-div {
+    background-color: white;
+    display: flex;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 3px solid black;
+    border-radius: 5px;
+    padding-right: 367px;
+}
+.ex {
+    position: absolute;
+    left: 98.1%;
+    top: 79px;
+    font-size:25px;
+    border: 2px solid #000;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+    line-height: 25px;
+}
+.messages-chat {
+    padding: 40px 0 380px 15px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 5px;
+    margin: 0;
+    font-weight: 500;
+    font-size: medium;
+}
+.tr-container{
+    display: block;
+    padding: 10px;
+}
+.name-chat{
+    padding: 15px 15px 10px 60px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.message-chat{
+    border: 2px solid black;
+    padding: 7px 1280px 7px 7px;
+    margin: 10px 50px 10px 20px;
+    border-radius: 8px;
+}
+.button-refresh{
+    padding-left: 15px;
+
+}
+.button-refresh1{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px 5px 5px;
+    cursor: pointer;
+}
+.send-button{
+    margin-top: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 7px 5px 5px;
+    cursor: pointer;
+}
+.refresh-button{
+    margin-top: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 7px 5px 5px;
+    cursor: pointer;
+}
+.messages-div{
+    width: auto;
+}
